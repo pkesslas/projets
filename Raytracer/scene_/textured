@@ -1,0 +1,116 @@
+camera
+{
+	pos(0,0,0)
+	pts(0,0,50)
+}
+spot
+{
+	pos(0,0,0)
+	col(255,255,255)
+	brg(20)
+}
+plan
+{
+	pos(0,0,100)
+	ang(0,0,0)
+	ray(0)
+	rvb(255,255,0)
+	rvb(255,255,255)
+	coef(0.1,0.5,0.4)
+	chkr(0)
+	reflect(0.1);
+}
+plan
+{
+	pos(0,-10,0)
+	ang(0,0,0)
+	ray(0)
+	rvb(255,255,255)
+	rvb(0,0,0)
+	coef(0.1,0.5,0.4)
+	chkr(1)
+	reflect(0.1);
+}
+plan
+{
+	pos(0,10,0)
+	ang(0,0,0)
+	ray(0)
+	rvb(0,255,255)
+	rvb(255,255,255)
+	coef(0.1,0.5,0.4)
+	chkr(0)
+	reflect(0.1);
+}
+plan
+{
+	pos(20,0,0)
+	ang(0,0,0)
+	ray(0)
+	rvb(0,255,0)
+	rvb(255,255,255)
+	coef(0.1,0.5,0.4)
+	chkr(0)
+	reflect(0.1);
+}
+plan
+{
+	pos(-20,0,0)
+	ang(0,0,0)
+	ray(0)
+	rvb(0,0,255)
+	rvb(255,255,255)
+	coef(0.1,0.5,0.4)
+	chkr(0)
+	reflect(0.1);
+}
+plan
+{
+	pos(0,0,-1)
+	ang(0,0,0)
+	ray(0)
+	rvb(255,0,0)
+	rvb(255,255,255)
+	coef(0.1,0.5,0.4)
+	chkr(0)
+	reflect(0.1);
+}
+sphere
+{
+	pos(6,-3,40)
+	ray(3)
+	limite(0,0)
+	rvb(00,00,255)
+	rvb(0,00,0)
+	coef(0.1,0.8,0.1)
+	perl(0)
+	wood(0)
+	text(3)
+	reflect(0.1);
+}
+sphere
+{
+	pos(0,-3,40)
+	ray(3)
+	limite(0,0)
+	rvb(00,00,255)
+	rvb(0,00,0)
+	coef(0.1,0.8,0.1)
+	perl(0)
+	wood(0)
+	text(1)
+	reflect(0.1);
+}
+sphere
+{
+	pos(-6,-3,40)
+	ray(3)
+	limite(0,0)
+	rvb(00,00,255)
+	rvb(0,00,0)
+	coef(0.1,0.8,0.1)
+	perl(0)
+	wood(0)
+	text(2)
+	reflect(0.1);
+}

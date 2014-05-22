@@ -1,0 +1,18 @@
+#:kivy 1.8.0
+
+<NameScreen>
+	GridLayout:
+		rows: 2
+		TextInput:
+			id: name1
+			hint_text: "Name 1"
+		TextInput:
+			id: name2
+			hint_text: "Name 2"
+		Button:
+			id: but
+			text: "Love Compatibility"
+			on_press: root.callback()
+			width: 100
+		Label:
+			text: str(root.result)

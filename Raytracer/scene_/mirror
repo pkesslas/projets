@@ -1,0 +1,77 @@
+camera
+{
+	pos(0,0,0)
+	pts(0,0,50)
+}
+spot
+{
+	pos(0,5,40)
+	col(255,255,255)
+	brg(20)
+}
+plan
+{
+	pos(0,0,100)
+	ang(0,0,0)
+	ray(0)
+	rvb(255,255,0)
+	rvb(255,255,255)
+	coef(0.1,0.5,0.4)
+	chkr(0)
+	reflect(0.7);
+}
+plan
+{
+	pos(0,-10,0)
+	ang(0,0,0)
+	ray(0)
+	rvb(255,255,255)
+	rvb(0,0,0)
+	coef(0.1,0.5,0.4)
+	chkr(1)
+	reflect(0.7);
+}
+plan
+{
+	pos(0,10,0)
+	ang(0,0,0)
+	ray(0)
+	rvb(0,255,255)
+	rvb(255,255,255)
+	coef(0.1,0.5,0.4)
+	chkr(0)
+	reflect(0.7);
+}
+plan
+{
+	pos(10,0,0)
+	ang(0,0,0)
+	ray(0)
+	rvb(0,255,0)
+	rvb(255,255,255)
+	coef(0.1,0.5,0.4)
+	chkr(0)
+	reflect(0.7);
+}
+plan
+{
+	pos(-10,0,0)
+	ang(0,0,0)
+	ray(0)
+	rvb(0,0,255)
+	rvb(255,255,255)
+	coef(0.1,0.5,0.4)
+	chkr(0)
+	reflect(0.7)
+}
+plan
+{
+	pos(0,0,-1)
+	ang(0,0,0)
+	ray(0)
+	rvb(255,0,0)
+	rvb(255,255,255)
+	coef(0.1,0.5,0.4)
+	chkr(0)
+	reflect(0.7);
+}

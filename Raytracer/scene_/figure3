@@ -1,0 +1,47 @@
+camera
+{
+	pos(0,20,10)
+	pts(0,0,50)
+}
+spot
+{
+	pos(-200,170,40)
+	col(255,255,255)
+	brg(20)
+}
+spot
+{
+	pos(-100,120,40)
+	col(255,255,255)
+	brg(20)
+}
+spot
+{
+	pos(-40,140,40)
+	col(255,255,255)
+	brg(20)
+}
+plan
+{
+	pos(0,-10,0)
+	ang(0,0,0)
+	ray(0)
+	rvb(255,255,255)
+	rvb(255,255,255)
+	coef(0.1,0.5,0.4)
+	chkr(0)
+	reflect(0);
+}
+sphere
+{
+	pos(0,20,220)
+	ray(15)
+	limite(0,0)
+	rvb(255,0,0)
+	rvb(0,0,0)
+	coef(0.1,0.4,0.7)
+	perl(0)
+	wood(0)
+	text(0)
+	reflect(0);
+}

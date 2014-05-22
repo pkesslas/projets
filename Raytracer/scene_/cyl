@@ -1,0 +1,74 @@
+camera
+{
+	pos(0,0,0)
+	pts(0,0,50)
+}
+spot
+{
+	pos(0,0,150)
+	col(255,255,255)
+	brg(20)
+}
+plan
+{
+	pos(0,-20,0)
+	ang(0,0,0)
+	ray(0)
+	rvb(255,255,0)
+	rvb(0,0,0)
+	coef(0.1,0.5,0.4)
+	chkr(1)
+	reflect(0.1);
+}
+cylindre
+{
+	pos(0,0,200)
+	ang(0,0,0)
+	limite(0,0)
+	ray(10)
+	rvb(0,0,00)
+	rvb(00,29,58)
+	coef(0.1,0.7,0.2)
+	perl(70)
+	wood(2)
+	reflect(1)
+}
+sphere
+{
+	pos(20,14,200)
+	ray(10)
+	limite(0,0)
+	rvb(255,00,255)
+	rvb(0,00,0)
+	coef(0.1,0.8,0.1)
+	perl(0)
+	wood(0)
+	text(0)
+	reflect(0.3);
+}
+sphere
+{
+	pos(-20,7,200)
+	ray(10)
+	limite(0,0)
+	rvb(255,255,0)
+	rvb(0,00,0)
+	coef(0.1,0.8,0.1)
+	perl(0)
+	wood(0)
+	text(0)
+	reflect(0.3);
+}
+sphere
+{
+	pos(20,-10,200)
+	ray(10)
+	limite(0,0)
+	rvb(00,00,255)
+	rvb(0,00,0)
+	coef(0.1,0.8,0.1)
+	perl(0)
+	wood(0)
+	text(0)
+	reflect(0.3);
+}
